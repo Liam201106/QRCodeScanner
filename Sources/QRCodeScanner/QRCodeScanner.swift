@@ -99,6 +99,7 @@ public class QRCodeScanner: UIViewController, AVCaptureMetadataOutputObjectsDele
             captureSession?.stopRunning()
             
             self.didScanQRCode?(stringValue)
+            dismiss(animated: true, completion: nil)
         }
     }
     
