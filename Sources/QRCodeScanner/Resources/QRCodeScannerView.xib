@@ -28,29 +28,29 @@
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o3X-LO-YeC" userLabel="QRView_Top_Layout">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="249"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="272.33333333333331"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="HOe-Yg-bMz"/>
                             </constraints>
                         </view>
                         <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmH-5f-sZX">
-                            <rect key="frame" x="0.0" y="603" width="393" height="249"/>
+                            <rect key="frame" x="0.0" y="579.66666666666663" width="393" height="272.33333333333337"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <string key="userLabel" base64-UTF8="YES">
 UVJWaWV3XxBCdXR0b21fTGF5b3V0A
 </string>
                         </view>
                         <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MnT-Mh-wf4" userLabel="QRView_Left_Layout">
-                            <rect key="frame" x="0.0" y="249" width="19.666666666666668" height="354"/>
+                            <rect key="frame" x="0.0" y="272.33333333333337" width="43" height="307.33333333333337"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="db7-d0-Owt" userLabel="QRView_Right_Layout">
-                            <rect key="frame" x="373.33333333333331" y="249" width="19.666666666666686" height="354"/>
+                            <rect key="frame" x="350" y="272.33333333333337" width="43" height="307.33333333333337"/>
                             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tL-qO-xch" userLabel="QRView Layout">
-                            <rect key="frame" x="19.666666666666657" y="249" width="353.66666666666674" height="354"/>
+                            <rect key="frame" x="43" y="272.33333333333337" width="307" height="307.33333333333337"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xxz-xc-SUv" userLabel="LT">
                                     <rect key="frame" x="-3" y="-3" width="3" height="30"/>
@@ -61,7 +61,7 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsz-64-lyz" userLabel="LB">
-                                    <rect key="frame" x="-3" y="327" width="3" height="30"/>
+                                    <rect key="frame" x="-3" y="280.33333333333331" width="3" height="30"/>
                                     <color key="backgroundColor" red="0.35294117650000001" green="0.86274509799999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="MXl-ND-5h8"/>
@@ -69,7 +69,7 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxz-Ey-eNJ" userLabel="RB">
-                                    <rect key="frame" x="353.66666666666663" y="327" width="3" height="30"/>
+                                    <rect key="frame" x="307" y="280.33333333333331" width="3" height="30"/>
                                     <color key="backgroundColor" red="0.35294117650000001" green="0.86274509799999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="3" id="H15-UH-I3i"/>
@@ -77,7 +77,7 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lue-hM-5ct" userLabel="RT">
-                                    <rect key="frame" x="353.66666666666663" y="-3" width="3" height="30"/>
+                                    <rect key="frame" x="307" y="-3" width="3" height="30"/>
                                     <color key="backgroundColor" red="0.35294117650000001" green="0.86274509799999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="3" id="fGb-JJ-YDZ"/>
@@ -93,7 +93,7 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RMc-95-0Wa" userLabel="BL">
-                                    <rect key="frame" x="-3" y="354" width="30" height="3"/>
+                                    <rect key="frame" x="-3" y="307.33333333333331" width="30" height="3"/>
                                     <color key="backgroundColor" red="0.35294117650000001" green="0.86274509799999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="3" id="PeZ-oI-Y33"/>
@@ -101,7 +101,7 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPe-jg-duf" userLabel="BR">
-                                    <rect key="frame" x="326.66666666666663" y="354" width="30" height="3"/>
+                                    <rect key="frame" x="280" y="307.33333333333331" width="30" height="3"/>
                                     <color key="backgroundColor" red="0.35294117650000001" green="0.86274509799999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="3" id="EdC-DS-P4P"/>
@@ -109,7 +109,7 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R1l-Zt-vtL" userLabel="TR">
-                                    <rect key="frame" x="326.66666666666663" y="-3" width="30" height="3"/>
+                                    <rect key="frame" x="280" y="-3" width="30" height="3"/>
                                     <color key="backgroundColor" red="0.35294117650000001" green="0.86274509799999999" blue="0.27450980390000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="30" id="60N-Xg-HBZ"/>
@@ -117,7 +117,7 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                                     </constraints>
                                 </view>
                                 <view alpha="0.40000000596046448" contentMode="scaleToFill" restorationIdentifier="Guide Line" translatesAutoresizingMaskIntoConstraints="NO" id="0mL-IM-P7r" userLabel="Guide Line">
-                                    <rect key="frame" x="0.0" y="176.66666666666669" width="353.66666666666669" height="1"/>
+                                    <rect key="frame" x="0.0" y="153.33333333333337" width="307" height="1"/>
                                     <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="bYv-ng-SWU"/>
@@ -160,7 +160,9 @@ UVJWaWV3XxBCdXR0b21fTGF5b3V0A
                         <constraint firstAttribute="trailing" secondItem="db7-d0-Owt" secondAttribute="trailing" id="Qnv-Yq-I2C"/>
                         <constraint firstItem="MnT-Mh-wf4" firstAttribute="height" secondItem="6tL-qO-xch" secondAttribute="height" id="Wkf-R9-EEQ"/>
                         <constraint firstItem="pmH-5f-sZX" firstAttribute="centerX" secondItem="S9s-Uq-Yu8" secondAttribute="centerX" id="Woq-qk-EjX"/>
-                        <constraint firstItem="6tL-qO-xch" firstAttribute="width" secondItem="S9s-Uq-Yu8" secondAttribute="width" multiplier="9:10" id="X0B-yQ-JPd"/>
+                        <constraint firstItem="6tL-qO-xch" firstAttribute="width" secondItem="S9s-Uq-Yu8" secondAttribute="width" multiplier="4:10" id="X0B-yQ-JPd">
+                            <variation key="heightClass=regular-widthClass=compact" constant="150"/>
+                        </constraint>
                         <constraint firstItem="6tL-qO-xch" firstAttribute="centerY" secondItem="S9s-Uq-Yu8" secondAttribute="centerY" id="anq-xL-YeT"/>
                         <constraint firstItem="o3X-LO-YeC" firstAttribute="width" secondItem="S9s-Uq-Yu8" secondAttribute="width" id="bIG-XM-geh"/>
                         <constraint firstItem="MnT-Mh-wf4" firstAttribute="centerY" secondItem="6tL-qO-xch" secondAttribute="centerY" id="dF5-Kg-4W9"/>
