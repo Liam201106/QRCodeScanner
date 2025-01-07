@@ -1,5 +1,6 @@
 Add Package .. 로 https://github.com/Liam201106/QRCodeScanner.git 을 입력하여 사용할 타겟에 추가한다.
 
+타겟의 Info.plist 에 Privacy - Camera Usage Description 추가.
 
 - 사용방법
 
