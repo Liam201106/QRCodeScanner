@@ -97,9 +97,9 @@ public class QRCodeScanner: UIViewController, AVCaptureMetadataOutputObjectsDele
             guard let stringValue = readableObject.stringValue else { return }
             AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
             captureSession?.stopRunning()
-            
-            self.didScanQRCode?(stringValue)
             dismiss(animated: true, completion: nil)
+            self.didScanQRCode?(stringValue)
+            
         }
     }
     
