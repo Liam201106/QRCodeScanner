@@ -4,11 +4,10 @@
 import UIKit
 import AVFoundation
 
-public class QRCodeScanner: UIViewController, AVCaptureMetadataOutputObjectsDelegate, AVCapturePhotoCaptureDelegate  {
+public class QRCodeScanner: UIViewController, AVCaptureMetadataOutputObjectsDelegate  {
     
     private var captureSession: AVCaptureSession!
     private var videoPreviewLayer: AVCaptureVideoPreviewLayer!
-    private let photoOutput = AVCapturePhotoOutput()
     
     @IBOutlet weak var scannerView: UIView!
     @IBOutlet weak var cancelButton: UIButton!
@@ -71,7 +70,6 @@ public class QRCodeScanner: UIViewController, AVCaptureMetadataOutputObjectsDele
         let metadataOutput = AVCaptureMetadataOutput()
         if (captureSession?.canAddOutput(metadataOutput) == true) {
             captureSession?.addOutput(metadataOutput)
-            captureSession.addOutput(photoOutput)
             
             metadataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
             // 스캔할 바코드 형식들을 배열로 받음
@@ -86,7 +84,7 @@ public class QRCodeScanner: UIViewController, AVCaptureMetadataOutputObjectsDele
         scannerView.layer.addSublayer(videoPreviewLayer!)
 
         // startRunning을 백그라운드 스레드에서 호출
-        DispatchQueue.global(qos: .userInitiated).async {
+        DispatchQueue.global(qos: .background).async {
             self.captureSession.startRunning()
         }
     }
